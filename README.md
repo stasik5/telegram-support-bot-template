@@ -2,6 +2,19 @@
 
 A ready-to-deploy Telegram bot template for customer support and FAQ automation.
 
+## 🚀 **Buy Now - $29**
+
+[🛒 Purchase Template](https://buy.stripe.com/5kQ3cvb7E5K71LsbIN6g800)
+
+**What you get:**
+- ✅ Complete, production-ready code
+- ✅ Comprehensive documentation
+- ✅ Quick start guide (5-minute setup)
+- ✅ Lifetime updates
+- ✅ MIT License (use for any project)
+
+---
+
 ## Features
 
 - ✅ Interactive FAQ menu with buttons
@@ -107,35 +120,48 @@ telegram-bot-templates/
 │   ├── faq.js            # FAQ items database
 │   ├── commands.js       # Bot commands configuration
 │   └── style.js          # UI/UX settings
-├── handlers/
-│   ├── faq.js            # FAQ menu handler
-│   ├── commands.js       # Command handlers
-│   └── messages.js       # Message forwarding
 ├── utils/
 │   ├── keyboard.js       # Inline keyboard builder
 │   └── logger.js         # Logging utilities
 ├── .env.example          # Environment template
 ├── package.json           # Dependencies
+├── QUICKSTART.md          # 5-minute setup guide
 └── README.md             # This file
 ```
 
+## What's Included
+
+### Bot Commands
+- `/start` - Welcome message
+- `/help` - Help and commands
+- `/faq` - Browse FAQs
+- `/about` - About page
+- `/contact` - Contact support
+
+### FAQ System
+- 8 pre-built FAQ items
+- Interactive menu navigation
+- Customizable questions & answers
+
+### Admin Features
+- Message forwarding to admin
+- User ID tracking
+- Support ticket workflow ready
+
 ## Advanced Features
 
-### Multi-Language Support
+### Multi-Language Support (Coming Soon)
 
 1. Create `config/lang/` directory
 2. Add language files: `en.js`, `es.js`, etc.
 3. Update user language tracking in handlers
-4. Reference `MULTILANGUAGE.md` for detailed guide
 
-### Database Integration
+### Database Integration (Optional)
 
 For persistent storage:
 - SQLite: `npm install better-sqlite3`
 - PostgreSQL: `npm install pg`
 - MongoDB: `npm install mongodb`
-
-See `DATABASE.md` for integration examples.
 
 ### Webhooks (Production)
 
@@ -149,7 +175,7 @@ curl -F "url=https://yourdomain.com/webhook" \
 
 Need help?
 - Email: jim.steeletto@gmail.com
-- Telegram: [Contact Support](https://t.me/your_support_bot)
+- Telegram: Contact after purchase
 
 ## License
 
@@ -158,3 +184,5 @@ MIT License - Use this template for your own projects!
 ---
 
 **Bought this template?** Customize it freely for your business needs.
+
+**🛒 [Purchase Template - $29](https://buy.stripe.com/5kQ3cvb7E5K71LsbIN6g800)**
