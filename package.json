@@ -1,0 +1,26 @@
+{
+  "name": "telegram-support-bot",
+  "version": "1.0.0",
+  "description": "Customer support bot template for Telegram",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "support",
+    "faq",
+    "template"
+  ],
+  "author": "Telegram Bot Templates",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
